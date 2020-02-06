@@ -43,7 +43,7 @@ Vue.config.ignoredElements = ['date-picker']
 
 import './assets/scss/app.scss'
 new Vue({
-  el: '#app',
+  el: '#persianDatePicker',
   router,
   render: h => h(App)
 })
